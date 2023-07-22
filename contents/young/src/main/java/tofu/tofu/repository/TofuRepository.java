@@ -9,21 +9,16 @@ import java.util.List;
 import java.util.Optional;
 
 @Repository
-public interface TofuRepository extends JpaRepository<Tofu,Long> {
-    Tofu save(Tofu tofu); // 저장
+public interface TofuRepository extends JpaRepository<Tofu, Long> {
 
-    Optional<Tofu> findById(Long id); // 두부의 id로 두부 검색
 
-    List<Tofu> findAll(); // 전체조회
+//    Tofu save(Tofu tofu); // 저장
 
-    Tofu findByMbti(String mbti); // 타입으로 조회
+//    Optional<Tofu> findById(Long id); // 두부의 id로 두부 검색
+/*
+    List<Tofu> findall(); // 전체조회
 
-    List<Tofu> findByType(String type); // 타입으로 조회
-
-    List<Tofu> findByGoodType(); // 좋은 상성의 두부
-
-    List<Tofu> findByBadType(); // 나븐 상성의 두부
-
+    Tofu findBymbti(String mbti); // 타입으로 조회*/
 
 
 }

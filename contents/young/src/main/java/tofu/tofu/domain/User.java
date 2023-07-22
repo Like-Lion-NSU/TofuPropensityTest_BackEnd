@@ -5,7 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 
 
@@ -16,7 +16,7 @@ public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long Id; // 유저Id (PK)
+    private Long id; // 유저Id (PK)
 
     private String userName; // 사용자의 이름
 

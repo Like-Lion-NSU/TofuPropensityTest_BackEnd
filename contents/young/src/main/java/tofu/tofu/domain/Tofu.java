@@ -2,7 +2,7 @@ package tofu.tofu.domain;
 
 
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.Getter;
 
 
@@ -15,12 +15,14 @@ public class Tofu {
 
         @Id
         @GeneratedValue(strategy = GenerationType.IDENTITY)
-        private Long Id; // 두부를 식별해줄 두부 식별 아이디
+        private Long id; // 두부를 식별해줄 두부 식별 아이디
+
         private String mbti;
 
-        private String GoodType; // 한 유형의 두부 와 잘 맞는 유형
+        private String goodType; // 한 유형의 두부 와 잘 맞는 유형
 
-        private String BadType; // 한 유형의 두부와 안맞는 유형
+        private String badType; // 한 유형의 두부와 안맞는 유형
+
         @OneToMany(mappedBy = "tofu", cascade = CascadeType.ALL)
         private List<User> users;
 

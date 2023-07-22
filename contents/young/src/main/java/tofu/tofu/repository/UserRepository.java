@@ -10,8 +10,10 @@ import java.util.Optional;
 @Repository
 public interface UserRepository extends JpaRepository<User, Long>{
 
-    User save(User user); // 유저의 정보를 저장
-    public Optional<User> findByUserId(Long id); // ID로 유저를 검색하는 기능
-    User findByUsername(String userName); // username으로 검색
+//    User save(User user); // 유저의 정보를 저장, JPA Data가 자동 생성
+
+//    Optional<User> findByUserId(Long id); // ID로 유저를 검색하는 기능
+
+//    User findByUserName(String userName); // username으로 검색
 
 }

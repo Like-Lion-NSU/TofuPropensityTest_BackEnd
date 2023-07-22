@@ -14,13 +14,13 @@ public class TofuController {
     private final TofuService tofuService;
 
     @PostMapping("/")
-    public void saveTofuByUser(String mbti, Long Id){
-        tofuService.saveTofuByUser(mbti, Id);
+    public void saveTofuByUser(Long tofuId, Long id){
+        tofuService.saveTofuByUser(tofuId, id);
     }
 
     @GetMapping("/result")
-    public User findTofu(Long Id){
-        User user = tofuService.findUser(Id);
+    public User findTofu(Long id){
+        User user = tofuService.findUser(id);
         return user;
     }
 }

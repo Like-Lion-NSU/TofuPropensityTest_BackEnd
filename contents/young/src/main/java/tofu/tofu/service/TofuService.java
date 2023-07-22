@@ -12,15 +12,19 @@ import tofu.tofu.repository.UserRepository;
 @Service
 @RequiredArgsConstructor
 public class TofuService {
+    
     private final TofuRepository tofuRepository;
     private final UserRepository userRepository;
-    public void saveTofuByUser(String mbti, Long Id){
-        Tofu tofu=tofuRepository.findByMbti(mbti);
-        User user=userRepository.findById(Id).orElse(null);
+
+
+    public void saveTofuByUser(Long tofuId, Long id){
+        Tofu tofu=tofuRepository.findById(tofuId).orElse(null);
+        User user=userRepository.findById(id).orElse(null);
         user.setTofu(tofu);
     }
-    public User findUser (Long Id){
-        User user=userRepository.findById(Id).orElse(null);
+
+    public User findUser (Long id){
+        User user=userRepository.findById(id).orElse(null);
         return user;
     }
 }
