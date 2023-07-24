@@ -1,0 +1,110 @@
+.result{
+  text-align: center;
+}
+.result-tofuType {
+  background-color: #F9F3C3;
+  color : #81E291;
+}
+.result-box{
+  width: 50vh;
+  height: 90vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.result-box__analyze{
+  width:100%;
+  height: 98%;
+  background-color: #EEFEDD;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.result-box__analyze--tofuTypeImg{
+  width: 50%;
+  height: 30%;
+  background-image: url("../img/tofu-image.png");
+  background-repeat: no-repeat;
+  background-position: 20px;
+}
+.result-box__analyze--analysisTable{
+  width:70%;
+  height: 60%;
+  background-color: #4A4A48;
+}
+.result-bestWorst{
+  display: flex;
+  justify-content: center;
+  width: 50vh;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.result-best{
+  margin: 0;
+  border-right: 2px solid black;
+  width: 50%;
+  height: 25vh;
+  background-image: url("../img/tofu-image.png");
+  background-repeat: no-repeat;
+  background-position: 20px 10px;
+  z-index: 1;
+}
+.result-worst{
+  width: 50%;
+  height: 25vh;
+  background-image: url("../img/tofu-image.png");
+  background-repeat: no-repeat;
+  background-position: 20px 10px;
+}
+.result-bestWorstText{
+  display: flex;
+  justify-content:space-around;
+  width: 50vh;
+  height: 14vh;
+  border-bottom: 2px solid black;
+}
+.result-bestWorstText__best{
+  border-right: 2px solid black;
+  padding-right: 80px;
+  margin-left: 30px;
+  padding-left: 50px;
+}
+.result-bestWorstText__worst{
+  padding-left: 20px;
+  margin-right: 80px;
+}
+.btn-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 25vh;
+  width: 50vh;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+.btn{
+  width: 50%;
+  height: 25%;
+  border-radius: 50px;
+  border: none;
+  font-weight: 600;
+  box-shadow: 7px 9px 16px black;
+  padding: 25px 0 30px 0;
+}
+.btn-replay{
+  background-color: #F9F3C3;
+}
+.btn-statistics{
+  background-color: #81E291;
+}
+.btn-allTypes a{
+  text-decoration: none;
+  color: #c1bd99;
+}
+.btn-allTypes{
+  background-color: #242424;
+  color: #c1bd99;
+}

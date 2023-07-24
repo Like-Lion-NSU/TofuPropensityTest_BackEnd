@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e78bc6c2.css",
+    "main.js": "/static/js/main.dab335ad.js",
+    "static/js/787.f27aedcc.chunk.js": "/static/js/787.f27aedcc.chunk.js",
+    "static/media/tofu-image.png": "/static/media/tofu-image.e1960bbed2c58d2b82fa.png",
+    "index.html": "/index.html",
+    "main.e78bc6c2.css.map": "/static/css/main.e78bc6c2.css.map",
+    "main.dab335ad.js.map": "/static/js/main.dab335ad.js.map",
+    "787.f27aedcc.chunk.js.map": "/static/js/787.f27aedcc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e78bc6c2.css",
+    "static/js/main.dab335ad.js"
+  ]
+}

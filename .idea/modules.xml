@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Tofu_propensity_test_BackEnd.iml" filepath="$PROJECT_DIR$/.idea/Tofu_propensity_test_BackEnd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/TofuPropensityTest_BackEnd.iml" filepath="$PROJECT_DIR$/.idea/TofuPropensityTest_BackEnd.iml" />
     </modules>
   </component>
 </project>
