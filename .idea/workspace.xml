@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b7f5087-a506-400c-924b-debd20c966b8" name="Changes" comment="" />
+    <list default="true" id="96903847-5761-4ea4-a43e-f6eefa583816" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Tofu_propensity_test_BackEnd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Tofu_propensity_test_BackEnd.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,56 +17,38 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2SseXIwsnKF2OJ9NZtGTOEG1Cge" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2T1THYdWC3Ij8MHf7kpB0LWM5HZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/dudxo/Desktop/두부/Tofu_propensity_test_BackEnd/contents/Byeong",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "application.passwordSafe",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/qudej/OneDrive/바탕 화면/TofuPropensityTest_BackEnd/contents/Boung&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\dudxo\Desktop\두부\Tofu_propensity_test_BackEnd\contents\Byeong" />
-      <recent name="C:\Users\dudxo\Desktop\두부\Tofu_propensity_test_BackEnd\contents\Min" />
-      <recent name="C:\Users\dudxo\Desktop\두부\Tofu_propensity_test_BackEnd\contents\Seong" />
-      <recent name="C:\Users\dudxo\Desktop\두부\Tofu_propensity_test_BackEnd\contents\young" />
-    </key>
-  </component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7b7f5087-a506-400c-924b-debd20c966b8" name="Changes" comment="" />
-      <created>1689939754216</created>
+      <changelist id="96903847-5761-4ea4-a43e-f6eefa583816" name="Changes" comment="" />
+      <created>1690209503147</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1689939754216</updated>
-      <workItem from="1689939755539" duration="381000" />
+      <updated>1690209503147</updated>
+      <workItem from="1690209504973" duration="36000" />
+      <workItem from="1690209578624" duration="252000" />
+      <workItem from="1690210180765" duration="93000" />
+      <workItem from="1690210395610" duration="21000" />
+      <workItem from="1690210752366" duration="74000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
